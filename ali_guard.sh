@@ -1,4 +1,3 @@
-cat << 'EOF' > ali_guard.sh
 #!/bin/bash
 set -e
 
@@ -126,5 +125,3 @@ echo -e "📂 持久化数据保存路径: ${YELLOW}${DATA_DIR}${NC}"
 echo -e "🔄 后续如何更新(保留数据): 直接再次运行 ${YELLOW}bash ali_guard.sh${NC} 即可！"
 echo -e "${GREEN}======================================================${NC}"
 EOF
-
-chmod +x manage_aliyun_guard.sh
