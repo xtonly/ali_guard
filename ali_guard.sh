@@ -1,4 +1,4 @@
-cat << 'EOF' > manage_aliyun_guard.sh
+cat << 'EOF' > ali_guard.sh
 #!/bin/bash
 set -e
 
@@ -123,7 +123,7 @@ echo -e "${GREEN}======================================================${NC}"
 echo -e "${GREEN}✅ 部署/更新完成！${NC}"
 echo -e "🌐 Web 面板访问地址: ${YELLOW}http://您的服务器IP:${HOST_PORT}${NC}"
 echo -e "📂 持久化数据保存路径: ${YELLOW}${DATA_DIR}${NC}"
-echo -e "🔄 后续如何更新(保留数据): 直接再次运行 ${YELLOW}bash manage_aliyun_guard.sh${NC} 即可！"
+echo -e "🔄 后续如何更新(保留数据): 直接再次运行 ${YELLOW}bash ali_guard.sh${NC} 即可！"
 echo -e "${GREEN}======================================================${NC}"
 EOF
 
